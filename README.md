@@ -23,24 +23,23 @@ This project focuses on analyzing sentiment from Flipkart reviews and identifyin
 - Visualization of review ratings distribution using Plotly.
 - Efficient processing of text data to extract sentiment and detect spam.
 
-##Steps
+## Steps
 
- Here are the steps for the provided code while maintaining the same format:
-
-Step 1: Importing the Required Packages
-The initial step involves importing the necessary Python packages such as Pandas, Seaborn, Matplotlib, NLTK, and others.
-Step 2: Importing the Dataset
-The code imports a dataset named "flipkart_reviews.csv" using the Pandas library. After importing the dataset, it displays the first 10 rows and checks for any null values using data.head(10) and data.isnull().sum() respectively.
-Step 3: Cleaning the Dataset
-The code defines and executes a function for cleaning the review text by performing tasks such as lowercasing, removing URLs, handling special characters, and stemming the words.
-Step 4: Visualizing the Rating Pie Chart
-To visualize the distribution of ratings, the code utilizes Plotly Express to create a pie chart reflecting the number of ratings in the dataset.
-Step 5: Sentiment Intensity Analysis
-Using the NLTK Vader sentiment analyzer, the code computes the positive, negative, and neutral scores for each review text.
-Step 6: Overall Sentiment Score
-The code calculates the overall sentiment score based on the sum of positive, negative, and neutral scores and prints whether the sentiment is positive, negative, or neutral.
-Step 7: Conclusion
-The code concludes the sentiment analysis process with a determination of the overall sentiment.
+Here are the steps for the provided code formatted for GitHub README:
+### Step 1: Importing the Required Packages
+- The initial step involves importing the necessary Python packages such as Pandas, Seaborn, Matplotlib, NLTK, and others.
+### Step 2: Importing the Dataset
+- The code imports a dataset named "flipkart_reviews.csv" using the Pandas library. After importing the dataset, it displays the first 10 rows and checks for any null values using `data.head(10)` and `data.isnull().sum()` respectively.
+### Step 3: Cleaning the Dataset
+- The code defines and executes a function for cleaning the review text by performing tasks such as lowercasing, removing URLs, handling special characters, and stemming the words.
+### Step 4: Visualizing the Rating Pie Chart
+- To visualize the distribution of ratings, the code utilizes Plotly Express to create a pie chart reflecting the number of ratings in the dataset.
+### Step 5: Sentiment Intensity Analysis
+- Using the NLTK Vader sentiment analyzer, the code computes the positive, negative, and neutral scores for each review text.
+### Step 6: Overall Sentiment Score
+- The code calculates the overall sentiment score based on the sum of positive, negative, and neutral scores and prints whether the sentiment is positive, negative, or neutral.
+### Step 7: Conclusion
+- The code concludes the sentiment analysis process with a determination of the overall sentiment.
 
 
 ## Visualization
