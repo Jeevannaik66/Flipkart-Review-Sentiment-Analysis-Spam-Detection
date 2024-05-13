@@ -25,6 +25,7 @@ This project focuses on analyzing sentiment from Flipkart reviews and identifyin
 ## Visualization
 
 The project includes visualizations of the review ratings distribution via pie charts, providing an overview of the sentiment distribution in the dataset.
+![image](https://github.com/Jeevannaik66/Flipkart-Review-Sentiment-Analysis-Spam-Detection/assets/117274229/287e9c12-6b8e-461b-8dc8-5672d9c8caa2)
 
 ## Sentiment Analysis
 
